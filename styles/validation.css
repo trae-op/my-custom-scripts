@@ -1,0 +1,30 @@
+
+
+.validation-form {
+  width: 320px;
+margin: 0 auto;
+   }
+
+.validation-form input[type="text"] {
+  margin-bottom: 5px;
+}
+  .validation-form select {
+    display: block;
+    margin: 10px 0; }
+}
+  .validation-form  #result-form {
+      width: 320px;
+      margin: 0 auto;
+      display: none;
+      font-size: 12px;
+    }
+
+    .checkbox, .radio {
+      margin: 10px 0;
+    }
+    .checkbox span, .radio span,
+    .checkbox span, .radio span,
+    .checkbox input, .radio input,
+    .checkbox input, .radio input {
+      display: inline-block;
+    }
