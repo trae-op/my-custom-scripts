@@ -57,19 +57,28 @@
 
 
   @media screen and (max-width: 600px) {
-    .audio, .video {
+    .audio {
+      width: 500px;
+    }
+    .video {
       width: 500px;
     }
   }
 
   @media screen and (max-width: 500px) {
-    .audio, .video {
+    .audio {
+      width: 400px;
+    }
+    .video {
       width: 400px;
     }
   }
 
   @media screen and (max-width: 480px) {
-    .audio, .video {
+    .audio {
+      width: 320px;
+    }
+    .video {
       width: 320px;
     }
   }
