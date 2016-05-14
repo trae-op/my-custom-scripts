@@ -90,3 +90,34 @@ var audioVideo = new AudioVideo([
     }
   }
 ]);
+
+/*
+                 -API-
+  =====================================
+  
+  audioVideo.Play(< index model >);
+  audioVideo.Play(0);
+  audioVideo.Stop(0);
+  audioVideo.Pause(0);
+
+  -----changes position for Progress------
+  audioVideo.Progress(< index >, < pange from 0 to 100 >);
+  audioVideo.Progress(1, 20);
+
+  -----changes position for Volume------
+  audioVideo.Volume(< index >, < pange from 0 to 100 >);
+  audioVideo.Volume(0, 50);
+
+  -----get value for Progress------
+  audioVideo.ValueProgress(< index >);
+  audioVideo.ValueProgress(0);
+
+  -----replace track by another file------
+  audioVideo.Track(< index >, [< path mp3/mp4/ogv/ogg >]);
+  audioVideo.Track(0, 
+    [
+      'https://www.mp3poisk.me/dl/468794-ludacris-srart-(www.mp3poisk.me).mp3'
+    ]
+  );
+
+*/
