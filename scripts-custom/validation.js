@@ -127,6 +127,5 @@ _validation.start({
       lastResult += ' '+resData[0]+' => '+resData[1]+',\n';
     });
     resultForm.innerHTML = lastResult + ']';
-    resultForm.style.display = 'block';
   }
 });
