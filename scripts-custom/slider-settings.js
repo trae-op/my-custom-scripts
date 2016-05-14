@@ -7,7 +7,7 @@ var slider = new Slider([
    // class of container for list slides 
    allSlidesList: 'all-list',
 
-   // delay between playing slider
+   // delay between playing of slide
    timeout: 1000,
 
    // speed of animation
