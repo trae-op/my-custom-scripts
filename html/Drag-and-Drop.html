@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="../styles/reset.css">
+    <style>
+
+
+.move-dragenddrop {
+  cursor: move;
+  background: green;
+  height: 50px;
+  left: 50px;
+  position: absolute;
+  top: 50px;
+  width: 50px; }
+
+.dragenddrop-all-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.container-dragenddrop {
+  outline: 1px solid red;
+  height: 250px;
+  position: relative;
+  margin-bottom: 10px;
+  width: 100%; }
+
+    </style>
+    <title>Drag End Drop</title>
+  </head>
+  <body>
+
+  <div class="dragenddrop-all-container">   
+    <p id="dragenddrop-all"></p>
+    <div class="container-dragenddrop">
+      <div class="move-dragenddrop"></div>
+    </div>
+
+    <p id="dragenddrop-x"></p>
+    <div class="container-dragenddrop">
+      <div class="move-dragenddrop"></div>
+    </div>
+
+    <p id="dragenddrop-y"></p>
+    <div class="container-dragenddrop">
+      <div class="move-dragenddrop"></div>
+    </div>
+  </div>
+
+    
+  <script src="../scripts-custom/move-element.js"></script>
+ 
+
+  </body>
+</html>
+
