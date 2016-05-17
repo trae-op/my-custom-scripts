@@ -97,7 +97,6 @@ function notBeyond(element, value, obj, callBack) {
         obj.element.style.top = 0;
       }
     }
-    elementPosition(element, value);
   }
   if (obj.x >= widthContainer || obj.y >= heightContainer) {
     if (obj.x >= widthContainer) {
